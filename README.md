@@ -1,0 +1,3 @@
+# Script-bash
+
+Script bash che prende in input come argomenti un file di configurazione ed un numero intero positivo (t). Lo script estrae il nome della directory associato all'opzione DirName dal file passato come primo argomento e archivia in un file con estensione .tar.gz tutti i files (e directories) contenuti in tale directory che sono più vecchi di t minuti. Se l'operazione di archiviazione è andata a buon fine, i file e le cartelle archiviati sono eliminati. Se il parametro t vale 0 (t==0), allora sono stampati sullo standard output tutti i file contenuti nella directory DirName. Lo script stampa il messaggio di uso se lanciato senza opzioni o se l'opzione lunga -help è presente tra gli argomenti del programma.
