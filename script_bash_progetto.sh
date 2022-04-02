@@ -61,7 +61,7 @@ else
    File=${File## }
    File1=${File%"/"*}
    #echo "$File"
-   #echo "file1 ha il seguente contenuto $File1"
+  
 fi
 
 
